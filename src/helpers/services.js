@@ -3,7 +3,7 @@ import img_wallet from '../static/images/logo-wallet.png'
 import img_social from '../static/images/logo-social.png'
 import img_shopping from '../static/images/logo-shopping.png'
 import img_cupon from '../static/images/logo-cupon.png'
-import img_aly from '../static/images/logo-alysystem-oficial.png'
+import img_aly from '../static/images/img-logo-alycoin.png'
 
 export default [
   {
@@ -38,8 +38,8 @@ export default [
   },
   {
     id: '6',
-    name: 'AlySystem',
+    name: 'AlyCoin',
     logo: img_aly,
-    routeName: ''
+    routeName: 'https://alycoin.net'
   }
 ]

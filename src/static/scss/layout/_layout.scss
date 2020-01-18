@@ -38,7 +38,6 @@
 
 .l-footer {
     background-color: #08031A;
-    // margin-top: 4rem;
     height: 250px;
 
     @include responsive(600px) {
@@ -74,4 +73,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.l-support {
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    z-index: var(--z-fixed);
+
+    @include responsive(large) {
+        right: 30px;
+        bottom: 60px;
+    }
+
+    @include responsive(medium) {
+        right: 30px;
+        bottom: 10px;
+    }
+    @include responsive(small) {
+        right: 30px;
+        bottom: 10px;
+    }
 }
