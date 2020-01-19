@@ -9,31 +9,37 @@ export default [
   {
     id: '1',
     name: 'AlySkiper',
-    logo: img_skiper
+    logo: img_skiper,
+    routeName: 'https://play.google.com/store/apps/details?id=com.alyskiperuser&hl=es_NI'
   },
   {
     id: '2',
     name: 'AlyWallet',
-    logo: img_wallet
+    logo: img_wallet,
+    routeName: ''
   },
   {
     id: '5',
     name: 'CupON',
-    logo: img_cupon
+    logo: img_cupon,
+    routeName: ''
   },
   {
     id: '3',
     name: 'AlyShopping',
-    logo: img_shopping
+    logo: img_shopping,
+    routeName: ''
   },
   {
     id: '4',
     name: 'AlySocial',
-    logo: img_social
+    logo: img_social,
+    routeName: ''
   },
   {
     id: '6',
     name: 'AlySystem',
-    logo: img_aly
+    logo: img_aly,
+    routeName: ''
   }
 ]
